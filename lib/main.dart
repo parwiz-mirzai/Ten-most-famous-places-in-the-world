@@ -18,7 +18,7 @@ class MyApp extends StatelessWidget {
     );
   }
 }
-
+// this is our splash screen class
 class SplashScreen extends StatefulWidget {
   const SplashScreen({super.key});
 
