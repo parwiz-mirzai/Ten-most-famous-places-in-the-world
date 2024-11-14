@@ -39,7 +39,7 @@ dependencies:
 dev_dependencies:
   flutter_test:
     sdk: flutter
-  
+  // for go to a side 
   url_launcher: ^6.0.20
   shared_preferences: ^2.2.3
   share_plus: ^6.0.0
