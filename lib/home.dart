@@ -43,6 +43,7 @@ class _HomePageState extends State<HomePage> {
                       const Icon(Icons.share),
                       TextButton(
                         onPressed: () {
+                           // when we want to share our app
                           const String appLink =
                               'https://play.google.com/store/apps/details?id=com.example.famous_places';
                           Share.share(appLink);
