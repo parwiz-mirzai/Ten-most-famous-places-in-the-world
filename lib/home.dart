@@ -77,6 +77,7 @@ class _HomePageState extends State<HomePage> {
                       const Icon(Icons.exit_to_app),
                       TextButton(
                         onPressed: () {
+                          // when we implement our app in android device it exite the app
                           SystemNavigator.pop();
                         },
                         child: const Text('خروج'),
