@@ -116,7 +116,7 @@ class _HomePageState extends State<HomePage> {
     );
   }
 }
-
+// in here we make our custom listTile claass
 Widget MyListTile(BuildContext context, String title, String imagePath,
     Widget destinationPage) {
   return GestureDetector(
