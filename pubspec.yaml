@@ -41,7 +41,7 @@ dev_dependencies:
     sdk: flutter
   // for go to a side 
   url_launcher: ^6.0.20
- 
+ // for sharing our app link
   share_plus: ^6.0.0
 
   # The "flutter_lints" package below contains a set of recommended lints to
