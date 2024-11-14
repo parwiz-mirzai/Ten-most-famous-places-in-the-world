@@ -6,6 +6,7 @@ class AboutPage extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
+    // this is a variable to controll the size of width
     double screenWidth = MediaQuery.of(context).size.width;
     String name = 'پرویز';
     String last = 'میرزایی';
