@@ -91,6 +91,7 @@ class _HomePageState extends State<HomePage> {
         ),
       ),
       body: ListView(
+        // we call just our class and give parameters
         children: [
           MyListTile(context, 'برج ایفل', 'assets/ef.jpg', const FirstPlace()),
           MyListTile(
