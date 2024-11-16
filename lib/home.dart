@@ -77,6 +77,10 @@ class _HomePageState extends State<HomePage> {
                       const Icon(Icons.exit_to_app),
                       TextButton(
                         onPressed: () {
+                          // to exit from all system
+                          // Navigator.pop(context);
+                          // Navigator.pop(context);
+                          
                           // when we implement our app in android device it exite the app
                           SystemNavigator.pop();
                         },
